@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<decorators defaultdir="/WEB-INF/decorators">
+	
+	<excludes>
+		<pattern>/daumeditor/*</pattern>
+		<pattern>/welcome/*</pattern>
+		<pattern>/exclude/*</pattern>
+		<pattern>/smarteditor/*</pattern>
+		<pattern>/swfupload/*</pattern>
+		<pattern>/xls/*</pattern>
+		<pattern>/html/*</pattern>
+	</excludes>
+	
+
+</decorators>
