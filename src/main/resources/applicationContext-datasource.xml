@@ -33,7 +33,7 @@
 		p:maxActive="${pool.maxActive}" p:maxIdle="${pool.maxIdle}" p:minIdle="${pool.minIdle}" /-->
 		
 	<bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean"> 
-	    <property name="jndiName" value="${jndi.postgres}" />
+	    <property name="jndiName" value="${jndi.basic}" />
 	</bean>	
 	
 

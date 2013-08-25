@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Browser" id="1" x="8" y="48" width="785" height="417" text="Browser&#xA;http://..." measuredWidth="785" measuredHeight="417"/>
-  <widgets xsi:type="model:TabbedPane" id="3" x="56" y="128" text="Tab One,Tab Two,Tab Three" measuredWidth="241" measuredHeight="127" selection="0">
-    <items x="10" y="0" width="70" height="27" text="Tab One"/>
-    <items x="80" y="0" width="70" height="27" text="Tab Two"/>
-    <items x="150" y="0" width="79" height="27" text="Tab Three"/>
+  <widgets xsi:type="model:Browser" id="1" x="24" y="48" width="785" height="417" text="Browser&#xA;http://..." measuredWidth="785" measuredHeight="417"/>
+  <widgets xsi:type="model:TabbedPane" id="3" x="56" y="128" text="Tab One,Tab Two,Tab Three" measuredWidth="224" measuredHeight="127" selection="0">
+    <items x="10" y="0" width="65" height="27" text="Tab One"/>
+    <items x="75" y="0" width="65" height="27" text="Tab Two"/>
+    <items x="140" y="0" width="72" height="27" text="Tab Three"/>
     <font/>
   </widgets>
   <hRuler/>
