@@ -1,4 +1,4 @@
-package akhouse.spring.basic.controller;
+package akhouse.spring.basic.home;
 
 import java.io.IOException;
 

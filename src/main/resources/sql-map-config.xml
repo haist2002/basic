@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE sqlMapConfig PUBLIC "-//iBATIS.com//DTD SQL Config Map 2.0//EN"
-            "http://ibatis.apache.org/dtd/sql-map-config-2.dtd">
-<sqlMapConfig>
-	<settings useStatementNamespaces="true" />
-
-
-</sqlMapConfig>
-
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <mappers>
+        <mapper resource="classpath:sql-basic-mapper.xml"/>
+    </mappers>
+ 	<typeAliases ></typeAliases>
+</configuration>
