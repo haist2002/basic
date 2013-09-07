@@ -5,7 +5,8 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
  
 
 <mapper namespace="sqlBasicMapper">
-  
+  	<select id="select-board-list"  resultType="boardSpec">
+		select * from BOARD
+	</select>
    	
- 
 </mapper>

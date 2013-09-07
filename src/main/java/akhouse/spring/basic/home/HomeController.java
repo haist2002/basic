@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import javax.servlet.http.HttpServletResponse;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
@@ -12,9 +13,16 @@ import org.springframework.web.servlet.ModelAndView;
 @RequestMapping("/home/*")
 public class HomeController {
 
+	@Autowired
+	private HomeService homeService;
+	
 	@RequestMapping(value="test")
 	public ModelAndView test(HttpServletResponse response) throws IOException{
-		return new ModelAndView("home");
+		ModelAndView vi = new ModelAndView("Home");
+		
+		vi.addObject("boardList", homeService.getBoard());
+		
+		return vi;
 		
 	}
 }

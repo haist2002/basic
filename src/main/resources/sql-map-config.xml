@@ -6,5 +6,7 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
     <mappers>
         <mapper resource="classpath:sql-basic-mapper.xml"/>
     </mappers>
- 	<typeAliases ></typeAliases>
+ 	<typeAliases>
+ 		<typeAlias type="akhouse.spring.basic.home.boardSpec" alias="boardSpec"/>
+ 	</typeAliases>
 </configuration>
