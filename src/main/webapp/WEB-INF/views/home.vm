@@ -8,6 +8,13 @@
     </head>
     <body>
         <h1>Hello World!</h1>
-        <p>$boardList</p>
+        #foreach($item in $boardList)
+        $item.bno
+        $item.name
+        
+        #end
+        
+        $boardList.size()
+        <p></p>
     </body>
 </html>

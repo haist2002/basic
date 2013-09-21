@@ -4,8 +4,10 @@ import java.util.List;
 
 import org.mybatis.spring.support.SqlSessionDaoSupport;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
 @Repository
+@Transactional
 public class HomeDaoImpl extends SqlSessionDaoSupport  implements HomeDao {
 
 
@@ -13,8 +15,7 @@ public class HomeDaoImpl extends SqlSessionDaoSupport  implements HomeDao {
 	@Override
 	public List<boardSpec> selectBoardList() {
 		
-		
-		return getSqlSession().selectList("sqlBasicMapper.select-board-list");
+		return  getSqlSession().selectList("home.selectBoardList");
 	}
 	
 }

@@ -18,9 +18,11 @@ public class HomeController {
 	
 	@RequestMapping(value="test")
 	public ModelAndView test(HttpServletResponse response) throws IOException{
-		ModelAndView vi = new ModelAndView("Home");
+		ModelAndView vi = new ModelAndView("home");
 		
 		vi.addObject("boardList", homeService.getBoard());
+		
+		System.out.println("boardlist gogogo ##############################");
 		
 		return vi;
 		

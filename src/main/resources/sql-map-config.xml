@@ -10,7 +10,7 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
  	</typeAliases>
  	
     <mappers>
-		<mapper resourse ="mappers/Home.xml" />
+		<mapper resourse ="mappers/home.xml" />
 	</mappers>
  	
 </configuration>
